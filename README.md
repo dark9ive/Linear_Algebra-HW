@@ -13,5 +13,11 @@ This project is basically composed of my linear algebra homeworks and practices.
 Do not expect anything surprising in this project since I'm lack of creativity.  
 You can know that from this markdown file:)  
 
-### 
+### classification
+
+The files are sorted by the ordinal of the week, and the following files are included in each folder:
+
+ - The python code.
+ - README markdown for the week.
+
 
