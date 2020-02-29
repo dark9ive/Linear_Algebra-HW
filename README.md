@@ -3,8 +3,9 @@ Linear algebra homeworks
 
 ## Usage
 
-> !Why are you asking for usage?  
-> !This is not for anyone to download and run(except for teacher yen-lung Tsai)!  
+Why are you asking for usage?  
+This is not for anyone to download and run(except for teacher yen-lung Tsai)!  
+In other words, **PLEASE FINISH YOUR HOMEWORKS BY YOURSELF!**  
 
 ## Intro
 
