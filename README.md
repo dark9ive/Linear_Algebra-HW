@@ -3,7 +3,8 @@ Linear algebra homeworks
 
 ## Usage
 
-Why are you asking for usage?  
+Please feel free to clone my project into your device.  
+Of course, you can please remember, 
 This is not for anyone to download and run(except for teacher yen-lung Tsai)!  
 In other words, **PLEASE FINISH YOUR HOMEWORKS BY YOURSELF!**  
 
