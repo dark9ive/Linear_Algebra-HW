@@ -30,6 +30,7 @@ import matplotlib.pyplot as plt
 ```
 
 Their functions are importing **numpy** and **matplotlib** into my codes.  
+  
 Next, I assigned two sets of variables:
 
 ```python
