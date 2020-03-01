@@ -28,7 +28,7 @@ In the first two line, you will see:
 import numpy as npy
 import matplotlib.pyplot as plt
 ```
-These two lines are importing numpy and matplotlib into my codes.
+These two lines are importing numpy and matplotlib into my codes.  
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
 
 ## Introspection
