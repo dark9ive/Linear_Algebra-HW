@@ -21,9 +21,9 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
 ### Before we started...
 
 If you want to tryout my code, make sure you have [python3](https://wiki.python.org/moin/BeginnersGuide/Download), [numpy](https://www.scipy.org/install.html), [matplotlib](https://matplotlib.org/users/installing.html), and [xkcd](https://xkcd.com/1654/) installed on your system. If you have no idea what they are, please click them for installing guides.
-  
-  
-  
+   
+   
+   
 In the first two line, you will see:
 ```python
 import numpy as npy
