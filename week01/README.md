@@ -23,12 +23,14 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
 If you want to tryout my code, make sure you have [python3](https://wiki.python.org/moin/BeginnersGuide/Download), [numpy](https://www.scipy.org/install.html), [matplotlib](https://matplotlib.org/users/installing.html), and [xkcd](https://xkcd.com/1654/) installed on your system. If you have no idea what they are, please click them for installing guides.
   
   
+  
 In the first two line, you will see:
 ```python
 import numpy as npy
 import matplotlib.pyplot as plt
 ```
-These two lines are importing numpy and matplotlib into my codes.  
+Their functions are importing numpy and matplotlib into my codes.  
+
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
 
 ## Introspection
