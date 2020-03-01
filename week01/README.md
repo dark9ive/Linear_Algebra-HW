@@ -30,13 +30,16 @@ import matplotlib.pyplot as plt
 ```
 
 Their functions are importing numpy and matplotlib into my codes.  
-  
-
+Next, I assigned two sets of variables:
 
 ```python
 x = npy.linspace(0, 5, 10)
 y = 2**x 
 ```
+
+`numpy.linespace(a, b, c)` can assign an array with `c` numbers ranged from `a` to `b`, 
+
+These two lines are 
 
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
 
