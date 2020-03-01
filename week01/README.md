@@ -9,12 +9,26 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
  - [Homework](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week01#homework)
  - [Introspection](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week01#introspection)
 
+### Working environments
+
+ - Operating System: Ubuntu 18.04
+ - Python version: 3.6.9
+
 ## Homework
 
 [Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/homework01.py) the source code of this week's homework.  
-  
-  
 
+### Before we started...
+
+If you want to tryout my code, make sure you have [python3](https://wiki.python.org/moin/BeginnersGuide/Download), [numpy](https://www.scipy.org/install.html), [matplotlib](https://matplotlib.org/users/installing.html), and [xkcd](https://xkcd.com/1654/) installed on your system. If you have no idea what they are, please click them for installing guides.
+  
+  
+In the first two line, you will see:
+```python
+import numpy as npy
+import matplotlib.pyplot as plt
+```
+These two lines are importing numpy and matplotlib into my codes.
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
 
 ## Introspection
