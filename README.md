@@ -4,9 +4,16 @@ Linear algebra homeworks
 ## Usage
 
 Please feel free to clone my project into your device.  
-Of course, you can please remember, 
-This is not for anyone to download and run(except for teacher yen-lung Tsai)!  
-In other words, **PLEASE FINISH YOUR HOMEWORKS BY YOURSELF!**  
+Of course, you can copy my homework easily.  
+However, please remember: *You learn only when you finished your work on your own.*  
+  
+Clone this project to your device with the following command:
+
+```
+git clone https://github.com/dark9ive/Linear_Algebra-HW.git
+```
+
+If you have already download this before, please use the `git pull` command.  
 
 ## Intro
 
