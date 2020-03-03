@@ -78,4 +78,4 @@ Using `with plt.xkd():`, your results can be displayed in comic style without af
 
 ## Introspection
 
-In this week's course, 
+In this week's course, Mr.Tsai taught us how to build the environments of 
