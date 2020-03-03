@@ -58,6 +58,24 @@ The function `plt.plot(x, y)` can draw the graph with all the points linked by s
 
 <img id="figure02" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure02.png" width="400" height="300">
 
+The function `plt.xkcd()` can draw your graphs in comic style:  
+
+<img id="figure03" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure03.png" width="400" height="300">
+<img id="figure04" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure04.png" width="400" height="300">
+
+The comic style looks cool, **however......**  
+  
+Many students found that this action cannot be undo, which means their graphs kept being comic style. I've found a solution for that:
+
+```python
+with plt.xkcd():
+    blah.....
+    blah....
+    some actions....
+return to normal style here. 
+```
+
+Inside `with plt.xkd():`, your results will be displayed in comic style, but the others won't.  
 
 ## Introspection
 ### Place Holder
