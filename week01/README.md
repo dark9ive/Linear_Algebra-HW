@@ -79,6 +79,6 @@ Using `with plt.xkcd():`, your results can be displayed in comic style without a
 
 ## Introspection
 
- During this week's course, Mr.Tsai has taught us how to build the environment which will be used in this course. Also, Mr.Tsai has explained the goal of this course. I'm happy that Mr.Tsai focus on waht a CS student need instead of just teaching math. This makes me willing 
+&nbsp;&nbsp;During this week's course, Mr.Tsai has taught us how to build the environment which will be used in this course. Also, Mr.Tsai has explained the goal of this course. I'm happy that Mr.Tsai focus on waht a CS student need instead of just teaching math. This makes me willing 
 to spend more time on this course(including writing this README.md file). Hope I can keep the quality of homework until the end of this semester.  
- If you ask me: *"Why do you want to finish your homework in this form? It spent much more time than the normal ways!"* I will give you the answer: *"Because I think this is cool, and I think this course is worthwhile to spent time on. That's it."*
+&nbsp;&nbsp;If you ask me: *"Why do you want to finish your homework in this form? It spent much more time than the normal ways!"* I will give you the answer: *"Because I think this is cool, and I think this course is worthwhile to spent time on. That's it."*
