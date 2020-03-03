@@ -74,7 +74,7 @@ with plt.xkcd():
 return to normal style here. 
 ```
 
-Using `with plt.xkd():`, your results can be displayed in comic style without affecting other parts.  
+Using `with plt.xkcd():`, your results can be displayed in comic style without affecting other parts.  
 
 ## Introspection
 
