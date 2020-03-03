@@ -43,7 +43,7 @@ x = npy.linspace(0, 5, 10)
 y = 2**x 
 ```
 
-In the first line, I assigned **x** with `numpy.linespace(a, b, c)`, which means assign an array with `c` isometric numbers ranged from `a` to `b`.In the second line, I assigned **y** as an array with each element equals to 2<sup>x</sup>.  
+In the first line, I assigned **x** with `numpy.linespace(a, b, c)`, which means assign an array with `c` isometric numbers ranged from `a` to `b`. In the second line, I assigned **y** as an array with each element equals to 2<sup>x</sup>.  
 
 ### Draw graphs
 
