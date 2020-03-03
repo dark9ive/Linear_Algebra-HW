@@ -78,4 +78,5 @@ Using `with plt.xkd():`, your results can be displayed in comic style without af
 
 ## Introspection
 
-In this week's course, Mr.Tsai taught us how to build the environments of 
+In this week's course, Mr.Tsai has taught us how to build the environment which will be used in this course. Also, Mr.Tsai has explained the goal of this course. I'm happy that Mr.Tsai focus on waht a CS student need instead of just teaching math. This makes me willing 
+to spend more time on this course(including writing this README.md file). Hope I can keep the quality of homework until the end of this semester.
