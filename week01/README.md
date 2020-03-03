@@ -40,9 +40,10 @@ y = 2**x
 ```
 
 In the first line, I assigned **x** with `numpy.linespace(a, b, c)`, which means assign an array with `c` isometric numbers ranged from `a` to `b`.In the second line, I assigned **y** as an array with each element equals to 2<sup>x</sup>.  
-
-The next two line
-
+  
+The next function I use is `plt.figure()`.  
+This fuction is used to switch different graphs. The only parameter needed is the index of the graph, which starts from 1.  
+  
 This is the graph with all the points seprated.  
 
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
