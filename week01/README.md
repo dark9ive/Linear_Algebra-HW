@@ -60,8 +60,7 @@ The function `plt.plot(x, y)` can draw the graph with all the points linked by s
 
 The function `plt.xkcd()` can draw your graphs in comic style:  
 
-<img id="figure03" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure03.png" width="400" height="300">
-<img id="figure04" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure04.png" width="400" height="300">
+<img id="figure03" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure03.png" width="400" height="300"><img id="figure04" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure04.png" width="400" height="300">
 
 The comic style looks cool, **however......**  
   
