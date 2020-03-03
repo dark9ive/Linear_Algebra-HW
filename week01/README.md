@@ -17,6 +17,7 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
 ## Homework
 
 [Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/homework01.py) the source code of this week's homework.  
+Due to my lack in creativity, I don't know how to draw something fancy. Instead, I'll try my best on making a class review.
 
 ### Before we started...
 
@@ -38,11 +39,18 @@ x = npy.linspace(0, 5, 10)
 y = 2**x 
 ```
 
-`numpy.linespace(a, b, c)` can assign an array with `c` numbers ranged from `a` to `b`, 
+In the first line, I assigned **x** with `numpy.linespace(a, b, c)`, which means assign an array with `c` isometric numbers ranged from `a` to `b`.In the second line, I assigned **y** as an array with each element equals to 2<sup>x</sup>.  
 
-These two lines are 
+The next two line
+
+This is the graph with all the points seprated.  
 
 <img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">
+
+This is the graph with all the points linked by straight lines.  
+
+<img id="figure02" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure02.png" width="400" height="300">
+
 
 ## Introspection
 ### Place Holder
