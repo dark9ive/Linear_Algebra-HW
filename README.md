@@ -1,5 +1,9 @@
 # Linear_Algebra-HW
-Linear algebra homeworks
+
+My linear algebra homeworks.  
+The class start from 01:10 p.m.(UTC+8) to 04:00 p.m.(UTC+8) every Thursday.  
+You can join this class with the following ID on [Zoom](https://zoomnow.net/)  
+<img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">  
 
 ## Usage
 
@@ -7,7 +11,7 @@ Please feel free to clone my project into your device.
 Of course, you can copy my homework easily.  
 However, please remember: *You learn only when you finished your work on your own.*  
   
-Clone this project to your device with the following command:
+Clone this project to your device with the following command
 
 ```
 git clone https://github.com/dark9ive/Linear_Algebra-HW.git
