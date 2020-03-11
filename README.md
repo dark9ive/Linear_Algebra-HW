@@ -3,7 +3,7 @@
 My linear algebra homeworks.  
 The class start from 01:10 p.m.(UTC+8) to 04:00 p.m.(UTC+8) every Thursday.  
 You can join this class with the following ID on [Zoom](https://zoomnow.net/)  
-<img id="figure01" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/pics/figure01.png" width="400" height="300">  
+<img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/.pics/classID.jpeg" width="400" height="300">  
 
 ## Usage
 
