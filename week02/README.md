@@ -72,14 +72,14 @@ with plt.xkcd():
     blah....
     plt.plot(x, y)    #    draw in comic style
     some actions....
-#return to normal style here. 
+#	return to normal style here. 
 ```
 
 Using `with plt.xkcd():`, your results can be displayed in comic style without affecting other parts.  
 
 ## Introspection
 
-&nbsp;&nbsp;&nbsp;&nbsp;During this week's course, Mr.Tsai has taught us some basics about the matrix in math. Although I've learned them in senior high school courses, I didn't realize that they have so much to do with the computer science field.
+&nbsp;&nbsp;&nbsp;&nbsp;During this week's course, Mr.Tsai has taught us some basics about the linear system and matrix in math. Although I've learned them in senior high school courses, I didn't realize that they have so much to do with the computer science. In addition, numpy provides a convenient environment for us to finish those related calculations, including matrix add/subtract/multiplication, discriminate solution(s) of a linear system...etc. This part is way more different from the senior high school course. In senior high, the main goal is to learn how to do such operations, which is really boring. In Mr.Tsai's class, we use techniques to complete those tasks, and put our attention on discussing math problems, which is more useful.  
   
 &nbsp;&nbsp;&nbsp;&nbsp;If you ask me: *"Why do you want to finish your homework in this form? It spent much more time than the normal ways!"*  
 I will give you the answer: *"Because I think this is cool, and I think this course is worthwhile to spent time on. That's it."*
