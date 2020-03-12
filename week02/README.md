@@ -25,15 +25,13 @@ If you want to tryout my code, make sure you have [python3](https://wiki.python.
 
 ### Import library(s)
 
-In the first two line, you will see:
+Just like what we do in the last week, you can import numpy by using the following line:
 
 ```python
 import numpy as npy
-import matplotlib.pyplot as plt
 ```
 
-Their functions are importing **numpy** and **matplotlib** into my codes.  
-  
+### Assign variable(s)
 WIP  
   
 
