@@ -40,14 +40,46 @@ x = npy.array([[1, 2, 3], [1, 2, 3]])
 y = npy.array([[1, 2], [1, 2], [1, 2]])
 ```
 
-Accroding to what we have learned about matrix, we can do the matrix multiplication on x and y.
+### Matrix multiplication
+
+Accroding to what we have learned about matrix, we can do the ***matrix multiplication*** on x and y. In python, we can use the 'numpy.dot()' function to done that.
 
 ```python
 ans = npy.dot(x, y)
 print(ans)
 ```
 
-The result of xy is printed on the screen, which is `[6, 12], [6, 12]`.
+The result of xy is printed on the screen, which is `[6, 12], [6, 12]`.  
+The next operation I have done is to calculate the ***dot product*** of two vectors.  
+
+### Dot product
+
+So now I assigned x and y as two vectors with 3 elements each.
+
+```python
+x = npy.array([3, 2, 1])
+y = npy.array([1, 2, 3])
+```
+
+Then I calculate the dot product of these two vectors using the `numpy.dot()` function.
+
+```python
+ans = npy.dot(x, y)
+print(ans)
+```
+
+The result should be printed on the screen: `10`
+
+### error(s)
+
+I've tried to assign the matrices with different sizes which both of them cannot multiply the other. and the dot operation returned the following error:
+
+```python
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<__array_function__ internals>", line 6, in dot
+ValueError: shapes (2,3) and (2,3) not aligned: 3 (dim 1) != 2 (dim 0)
+```
 
 ## Introspection
 
