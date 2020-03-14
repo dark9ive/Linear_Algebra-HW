@@ -16,8 +16,8 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
 
 ## Homework
 
-[Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week01/homework02.py) the source code of this week's homework.  
-Due to my lack in creativity, I don't know how to draw something fancy. Instead, I'll try my best on making a class review.
+[Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week02/homework02.py) the source code of this week's homework.  
+Trying my best on making a class review.
 
 ### Before we started...
 
