@@ -32,8 +32,22 @@ import numpy as npy
 ```
 
 ### Assign variable(s)
-WIP  
-  
+
+In the next two lines, I assigned ***x*** and ***y*** as a 2×3 and 3×2 matrix.
+
+```python
+x = npy.array([[1, 2, 3], [1, 2, 3]])
+y = npy.array([[1, 2], [1, 2], [1, 2]])
+```
+
+Accroding to what we have learned about matrix, we can do the matrix multiplication on x and y.
+
+```python
+ans = npy.dot(x, y)
+print(ans)
+```
+
+The result of xy is printed on the screen, which is `[6, 12], [6, 12]`.
 
 ## Introspection
 
