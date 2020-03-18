@@ -1,6 +1,6 @@
-# Week 02
+# Week 03
 
-Class review of NCCU-CS Linear Algebra week 2.
+Class review of NCCU-CS Linear Algebra week 3.
 
 ## Intro
 
@@ -16,7 +16,7 @@ This is 108703015's Linear Algebra homework. Seperated into two parts:
 
 ## Homework
 
-[Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week02/homework02.py) the source code of this week's homework.  
+[Here's](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week03/homework03.py) the source code of this week's homework.  
 Trying my best on making a class review.
 
 ### Before we started...
