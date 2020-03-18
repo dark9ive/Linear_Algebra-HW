@@ -22,6 +22,6 @@ further instructions WIP.
 
 So this is how my codes works:  
 We can solve a system of linear equations in _N_ unknowns by given a _N*N_ matrix and a _N*1_ matrix of answers.  
-<! img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week02/programmingHW/pics/CodeCogsEqn.png height="120" width="240" >  
+<!-- img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week02/programmingHW/pics/CodeCogsEqn.png height="120" width="240" -->  
 By using the inverse matrix of A, we can calculate the answers by mutiply them together.
 
