@@ -15,6 +15,17 @@ So, I write this python code to help me calculate the unit price of those two it
 ```
 python3 code.py
 ```
+
 further instructions WIP.
 
+## principle
 
+So this is how my codes works:  
+We can solve a system of linear equations in _N_ unknowns by given a _N*N_ matrix and a _N*1_ matrix of answers.  
+$$
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+$$
+By using inverse matrix
