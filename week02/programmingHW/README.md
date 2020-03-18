@@ -22,5 +22,5 @@ further instructions WIP.
 
 So this is how my codes works:  
 We can solve a system of linear equations in _N_ unknowns by given a _N*N_ matrix and a _N*1_ matrix of answers.  
-<img src="http://latex.codecogs.com/gif.latex?\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}" />
+<img src=https://latex.codecogs.com/png.download?A%3D%5Cbegin%7Bbmatrix%7D%20a%20%26%20b%5C%5C%20c%20%26%20d%20%5Cend%7Bbmatrix%7D />
 By using inverse matrix
