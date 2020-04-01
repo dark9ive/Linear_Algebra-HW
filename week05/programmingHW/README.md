@@ -9,7 +9,7 @@ WIP
 ## usage
 
 ```
-python3 code.py
+python3 code.py (1 or 2)
 ```
 
 Please make sure your terminal can show unicode characters.
