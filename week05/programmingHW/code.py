@@ -20,9 +20,12 @@ if __name__ == '__main__':
     elif(sys.argv[1] == "1"):
         x = int(input("Please insert the row(s) of your matrix: "))
         y = int(input("Please insert the column(s) of your matrix: "))
+        while(x > y):
+            print("The rows cannot be more than the columns!")
+            x = int(input("Please insert the row(s) of your matrix: "))
+            y = int(input("Please insert the column(s) of your matrix: "))
 
         matrix = npy.zeros(shape=(max(x, y), max(x, y)))
-        #matrix = npy.zeros(shape=(x, y))
 
         for a in range(x):
             for b in range(y):
@@ -30,10 +33,6 @@ if __name__ == '__main__':
         print("\n\nThis is your input matrix:")
         for a in range(x):
             print(matrix[a])
-
-        #A = spy.Matrix(matrix)
-        #print(A.rref())
-        #exit()
     
         minusone = npy.zeros(shape=(0, 0))
 
