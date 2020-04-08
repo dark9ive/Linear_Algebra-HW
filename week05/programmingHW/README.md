@@ -21,4 +21,4 @@ python3 code.py (1 or 2)
 ### Part1
 
 In the first part, the user can set a custom matrix with any rows or columns in the beginning.  
-
+<img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot.png">
