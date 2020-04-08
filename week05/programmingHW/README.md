@@ -21,4 +21,7 @@ python3 code.py (1 or 2)
 ### Part1
 
 In the first part, the user can set a custom matrix with its rows less than its columns.  
+If you don't, you will get this error:  
+<img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot_error1.png">
+
 <img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot.png">
