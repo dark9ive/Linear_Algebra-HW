@@ -22,10 +22,18 @@ if __name__ == '__main__':
         y = int(input("Please insert the column(s) of your matrix: "))
 
         matrix = npy.zeros(shape=(max(x, y), max(x, y)))
+        #matrix = npy.zeros(shape=(x, y))
 
         for a in range(x):
             for b in range(y):
                 matrix[a][b] = input("Please insert the element in the position (%d, %d): "%(a+1, b+1))
+        print("\n\nThis is your input matrix:")
+        for a in range(x):
+            print(matrix[a])
+
+        #A = spy.Matrix(matrix)
+        #print(A.rref())
+        #exit()
     
         minusone = npy.zeros(shape=(0, 0))
 
@@ -36,22 +44,39 @@ if __name__ == '__main__':
                         break
                     else:
                         matrix = swap(a, b, matrix)
+                        break
             if(matrix[a][a] == 0):
                 buf = npy.zeros(shape=(1, y))
                 buf[0][a] = -1
                 matrix = npy.insert(matrix, a, buf, axis=0)
                 matrix = npy.delete(matrix, max(x, y), axis=0)
                 minusone = npy.append(minusone, a)
+                continue
             else:
-                #matrix[a] /= matrix[a][a]
-                for b in range(a+1, max(x, y)):
+                matrix[a] /= matrix[a][a]
+                for b in range(y):
+                    if(b == a):
+                        continue
                     if(matrix[b][a] != 0):
                         vectoradd(a, b, matrix)
-
+        for a in range(x):
+            for b in range(y):
+                if(matrix[a][b] == 0):
+                    matrix[a][b] = 0
+        print("\n\nRREF of your input matrix is:")
+        for a in range(y):
+            lock = 1;
+            for b in minusone:
+                if(a == b):
+                    lock = 0
+                    break
+            if(lock):
+                print(matrix[a])
+        print("\n\nYour RREF marix after adding minus one(s) is:")
         print(matrix)
 
         sol = npy.zeros(shape=(1, max(x, y)))
-        print("∀ ", end = '')
+        print("\n\n∀ ", end = '')
         for a in range(npy.size(minusone)):
             symb = spy.Symbol(chr(65+a))
             sol = sol + symb*matrix[:, int(minusone[a])]
