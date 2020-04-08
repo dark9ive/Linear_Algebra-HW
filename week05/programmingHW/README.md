@@ -24,7 +24,14 @@ In the first part, the user can set a custom matrix with its rows less than its 
   
 If you don't, you will get this error:  
   
-<img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot_error1.png">
+<img id="error1" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot_error1.png">
   
+After you give me a matrix, I will show the given matrix again:
+  
+<img id="step1" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/step1.png">
+  
+Then I will make your matrix a RREF matrix by doing these:
+ - If the n-th element in the n-th row equals to zero, swap the n-th row with a row which the n-th element isn't zero.
 
-<img id="classID" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot.png">
+  
+<img id="success" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot.png">
