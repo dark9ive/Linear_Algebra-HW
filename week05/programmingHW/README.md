@@ -10,7 +10,7 @@ Running instructions are listed in [Usage](https://github.com/dark9ive/Linear_Al
 
 ## Usage
 
-Please make sure you have [python3](https://wiki.python.org/moin/BeginnersGuide/Download) and [numpy](https://www.scipy.org/install.html) installed, and your terminal can show unicode characters.
+Please make sure you have [python3](https://wiki.python.org/moin/BeginnersGuide/Download), [numpy](https://www.scipy.org/install.html) and [sympy](https://github.com/sympy/sympy/releases) installed, and your terminal can show unicode characters.
 
 ```
 python3 code.py (1 or 2)
