@@ -44,4 +44,16 @@ Then I will make your matrix a RREF matrix by doing these:
   
 Last but not least, assign symbols with a for loop and sympy, which can show you the Homogeneous solution of your input matrix.  
   
-<img id="success" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/screenshot.png">
+<img id="success1" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/success1.png">
+  
+That's how my code briefly works.
+
+### Part2
+
+Mainly the reverse version of part1.  
+Now it won't check whether your matrix is RREF or not.  
+How it works is simply times every line with a random int from 1 to 3 and add rows randomly.  
+  
+For example:
+  
+<img id="success2" src="https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week05/programmingHW/pics/success2.png">

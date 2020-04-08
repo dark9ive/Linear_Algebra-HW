@@ -90,6 +90,10 @@ if __name__ == '__main__':
     elif(sys.argv[1] == "2"):
         x = int(input("Please insert the row(s) of your matrix: "))
         y = int(input("Please insert the column(s) of your matrix: "))
+        while(x > y):
+            print("The rows cannot be more than the columns!")
+            x = int(input("Please insert the row(s) of your matrix: "))
+            y = int(input("Please insert the column(s) of your matrix: "))
 
         matrix = npy.zeros(shape=(x, y))
         ans = npy.zeros(shape=(x, y))
@@ -98,9 +102,11 @@ if __name__ == '__main__':
             for b in range(y):
                 matrix[a][b] = input("Please insert the element in the position (%d, %d): "%(a+1, b+1))
 
+        #for a in range(x):
+
         for a in range(x):
             for b in range(a, x):
-                ans[b] += matrix[a]*random.randint(-3, 3)
+                ans[b] += matrix[a]*random.randint(1, 3)
 
         print(ans)
         exit()
