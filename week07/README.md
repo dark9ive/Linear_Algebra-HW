@@ -7,7 +7,7 @@ Class review of NCCU-CS Linear Algebra week 7.
 This is 108703015's Linear Algebra homework. Seperated into two parts:
 
  - [Homework](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week07/programmingHW)
- - [Introspection](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week05#introspection)
+ - [Introspection](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week07#introspection)
 
 ### Working environments
 
