@@ -27,7 +27,13 @@ If you want to tryout my code, make sure you have [python3](https://wiki.python.
 
 ## Introspection
 
-&nbsp;&nbsp;&nbsp;&nbsp;During this week's course, Mr.Tsai has taught us some basics about the linear system and group. This part was not included in senior high school courses, so I do facing some challenges doing homeworks. Fortunately, I can watch the course again on Mr.Tsai's Youtube channel. Thanks to Mr.Tsai, I can keep up with the class although I missed a class one week earlier.
+&nbsp;&nbsp;&nbsp;&nbsp;During this week's course, Mr.Tsai has taught us the following topics:
+
+1. The definition of generating set and span of a set.
+2. The definition of Basis and examples.  
+3. The properties of Rank.
+
+&nbsp;&nbsp;&nbsp;&nbsp;This is the last course before midterm exam. Hope the midterm won't be too hard.
   
 &nbsp;&nbsp;&nbsp;&nbsp;If you ask me: *"Why do you want to finish your homework in this form? It spent much more time than the normal ways!"*  
 I will give you the answer: *"Because I think this is cool, and I think this course is worthwhile to spent time on. That's it."*
