@@ -1,12 +1,12 @@
-# Week 05
+# Week 06
 
-Class review of NCCU-CS Linear Algebra week 5.
+Class review of NCCU-CS Linear Algebra week 6.
 
 ## Intro
 
 This is 108703015's Linear Algebra homework.  
 
- - [Introspection](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week05#introspection)
+ - [Introspection](https://github.com/dark9ive/Linear_Algebra-HW/tree/master/week06#introspection)
 
 ### Working environments
 
