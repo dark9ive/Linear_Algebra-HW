@@ -32,6 +32,7 @@ The transform matrix is calcucate as follows:
 
 1. First make a 3x3 identity matrix.
 2. Mutiply(npy.dot) the matrix with rotate-matrix, which is [[cos(theta), -sin(theta), 0], [sin(theta), cos(theta), 0], [0, 0, 1]]
+3. Mutiply(npy.dot) the matrix with transform-matrix, which is [[1, 0, deltaX], [0, 1, deltaY], [0, 0, 1]]
 
 
 ## Example
