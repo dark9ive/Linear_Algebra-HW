@@ -16,6 +16,10 @@ I recommend you to run these codes on a ___jupyter notebook___ or anything simil
 
 So this is how my codes works:  
 
+First the user will insert a range for a rectangle, then I will fill the region with 30x30 points separated.
+
+After that, the code will draw each points on a chart, which ranged from x=(-1.2\*max, 1.2\*max), y=(-1.2\*max, 1.2\*max) for max=max(eachX, eachY).
+
 
 
 ## Example

@@ -26,15 +26,16 @@ points = []            #    homogeneous coordinates array
 for a in x:
     for b in y:
         plt.scatter(a, b, 20, 'r')
-        if(a > max_):
-            max_ = a
-        if(b > max_):
-            max_ = b
+        if(abs(a) > max_):
+            max_ = abs(a)
+        if(abs(b) > max_):
+            max_ = abs(b)
         points.append([a, b, 1])
 plt.xlim(-max_*1.2, max_*1.2)        #    re-range the chart
 plt.ylim(-max_*1.2, max_*1.2)        #    re-range the chart
-plt.plot([0, 0], [-max_*1.2, max_*1.2])
-plt.plot([-max_*1.2, max_*1.2], [0, 0])
+plt.plot([0, 0], [-max_*1.2, max_*1.2])        #    draw the y-axis
+plt.plot([-max_*1.2, max_*1.2], [0, 0])        #    draw the x-axis
+
 plt.show()
 
 ############    Part 1 finished.    ############
@@ -49,18 +50,18 @@ transform_matrix = transform_matrix.dot(rotate(theta))             #    rotate e
 for point in points:
     point = transform_matrix.dot(point)
     plt.scatter(point[0], point[1], 20, 'b')
-    if(point[0] > max_):
-        max_ = point[0]
-    if(point[1] > max_):
-        max_ = point[1]
+    if(abs(point[0]) > max_):
+        max_ = abs(point[0])
+    if(abs(point[1]) > max_):
+        max_ = abs(point[1])
 for a in x:
     for b in y:
         plt.scatter(a, b, 20, 'r')
 
 plt.xlim(-max_*1.2, max_*1.2)        #    re-range the chart
 plt.ylim(-max_*1.2, max_*1.2)        #    re-range the chart
-plt.plot([0, 0], [-max_*1.2, max_*1.2])
-plt.plot([-max_*1.2, max_*1.2], [0, 0])
+plt.plot([0, 0], [-max_*1.2, max_*1.2])        #    draw the y-axis
+plt.plot([-max_*1.2, max_*1.2], [0, 0])        #    draw the x-axis
 plt.show()
 
 ############    Part 2 finished.    ############
