@@ -31,11 +31,11 @@ In part 2, the user is asked to insert the degree(s) to rotate, and the x-direct
 The transform matrix is calcucate as follows:
 
 1. First make a 3x3 identity matrix.
-2. Mutiply(npy.dot) the matrix with rotate-matrix, which is [[cos(theta), -sin(theta), 0], [sin(theta), cos(theta), 0], [0, 0, 1]]
-3. Mutiply(npy.dot) the matrix with transform-matrix, which is [[1, 0, deltaX], [0, 1, deltaY], [0, 0, 1]]
+2. Multiply(npy.dot) the matrix with rotate-matrix, which is [[cos(theta), -sin(theta), 0], [sin(theta), cos(theta), 0], [0, 0, 1]]
+3. Multiply(npy.dot) the matrix with transform-matrix, which is [[1, 0, deltaX], [0, 1, deltaY], [0, 0, 1]]
+
+then multiply every points with the 3x3 transform matrix and draw them on a new chart.
 
 
 ## Example
-<img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png >
-By using the inverse matrix of A, we can calculate the answers by mutiply them together.
-
+<img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png >.
