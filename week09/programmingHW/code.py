@@ -47,6 +47,11 @@ deltay = float(input("Please insert the unit(s) of y-direction transform: "))
 transform_matrix = npy.eye(3)       #    Identity matrix 
 transform_matrix = transform_matrix.dot(transform(deltax, deltay))       #    transform every points by x+0, y-5.
 transform_matrix = transform_matrix.dot(rotate(theta))             #    rotate every points about (0, 0) for 45 degrees.
+
+for a in x:
+    for b in y:
+        plt.scatter(a, b, 20, 'r')
+
 for point in points:
     point = transform_matrix.dot(point)
     plt.scatter(point[0], point[1], 20, 'b')
@@ -54,9 +59,6 @@ for point in points:
         max_ = abs(point[0])
     if(abs(point[1]) > max_):
         max_ = abs(point[1])
-for a in x:
-    for b in y:
-        plt.scatter(a, b, 20, 'r')
 
 plt.xlim(-max_*1.2, max_*1.2)        #    re-range the chart
 plt.ylim(-max_*1.2, max_*1.2)        #    re-range the chart
