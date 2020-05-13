@@ -19,6 +19,6 @@ So this is how my codes works:
 
 
 ## Example
-<!-- img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png -->  
+<img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png >
 By using the inverse matrix of A, we can calculate the answers by mutiply them together.
 
