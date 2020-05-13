@@ -1,4 +1,4 @@
-# Week 08
+# Week 09
 
 Class review of NCCU-CS Linear Algebra week 9.
 

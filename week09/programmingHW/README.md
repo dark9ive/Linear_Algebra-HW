@@ -1,27 +1,24 @@
-# ProgrammingHW02
+# ProgrammingHW06
 
-Linear Algebra Programming HW 02
-
-## Story
-
-During the plague, the residents are asked to stay at home. The residents can only go to the supermarket once a week.  
-Each week, my parents asked me to buy some potatoes and tomatoes.  
-However, I always forget the unit price of those groceries.  
-Fortunately, I can calculate the total price by counting how much money was left in my wallet.  
-So, I write this python code to help me calculate the unit price of those two items.  
+Linear Algebra Programming HW 06
 
 ## usage
+
+codes [here](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/code.py).
 
 ```
 python3 code.py
 ```
 
-further instructions WIP.
+I recommend you to run these codes on a ___jupyter notebook___ or anything similar since terminal enviornments can't show the charts.  
 
 ## principle
 
 So this is how my codes works:  
-We can solve a system of linear equations in _N_ unknowns by given a _N*N_ matrix and a _N*1_ matrix of answers.  
-<!-- img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week02/programmingHW/pics/CodeCogsEqn.png height="120" width="240" -->  
+
+
+
+## Example
+<!-- img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png -->  
 By using the inverse matrix of A, we can calculate the answers by mutiply them together.
 
