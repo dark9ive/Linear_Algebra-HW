@@ -22,20 +22,20 @@ So this is how my codes works:
 
 First the user will insert deltaX and deltaY, both zero is not accepted.  
 
-Ater that, user has to insert the 
+Ater that, user has to insert x0 and y0, and the code will draw 100 points on a chart, which ranged from (x - 10 * deltaX) to (x + 10 * deltaX), (y - 10 * deltaY) to (y + 10 * deltaY).  
 
-After that, the code will draw each points on a chart, which ranged from x=(-1.2\*max, 1.2\*max), y=(-1.2\*max, 1.2\*max) for max=max(eachX, eachY).
+The chart is ranged from x=(-1.2\*max, 1.2\*max), y=(-1.2\*max, 1.2\*max) for max=max(eachX, eachY).
 
 This is all of Part 1.  
 
 ### Part 2
 
-In part 2, the user is asked to insert the degree(s) to rotate, and the x-direction and y-direction transform.
+In part 2, the user is asked to insert a R2 matrix, and the x-direction and y-direction transform.
 
 The transform matrix is calcucate as follows:
 
 1. First make a 3x3 identity matrix.
-2. Multiply(npy.dot) the matrix with rotate-matrix, which is [[cos(theta), -sin(theta), 0], [sin(theta), cos(theta), 0], [0, 0, 1]]
+2. Ask user to fill in the [0][0], [0][1], [1][0], and[1][1].
 3. Multiply(npy.dot) the matrix with transform-matrix, which is [[1, 0, deltaX], [0, 1, deltaY], [0, 0, 1]]
 
 then multiply every points with the 3x3 transform matrix and draw them on a new chart.
