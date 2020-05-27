@@ -47,10 +47,10 @@ if __name__ == '__main__':
     
     ############    Part 1 finished.    ############
 
-    phi[3][3] = npy.eye(3)
+    phi = npy.eye(3)
     for a in range(0, 2):
         for b in range(0, 2):
-            phi[a][b] = float(input("Please insert phi[" + str(a) + "][" + str(b) + "]"))
+            phi[a][b] = float(input("Please insert phi[" + str(a) + "][" + str(b) + "]: "))
 
     deltax = float(input("Please insert the unit(s) of x-direction transform: "))
     deltay = float(input("Please insert the unit(s) of y-direction transform: "))
