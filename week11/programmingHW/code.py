@@ -46,14 +46,18 @@ if __name__ == '__main__':
     plt.show()
     
     ############    Part 1 finished.    ############
-    
-    theta = float(input("Please insert degree(s) to rotate: "))
+
+    phi[3][3] = npy.eye(3)
+    for a in range(0, 2):
+        for b in range(0, 2):
+            phi[a][b] = float(input("Please insert phi[" + str(a) + "][" + str(b) + "]"))
+
     deltax = float(input("Please insert the unit(s) of x-direction transform: "))
     deltay = float(input("Please insert the unit(s) of y-direction transform: "))
     
     transform_matrix = npy.eye(3)       #    Identity matrix 
     transform_matrix = transform_matrix.dot(transform(deltax, deltay))       #    transform every points by x+0, y-5.
-    transform_matrix = transform_matrix.dot(rotate(theta))             #    rotate every points about (0, 0) for 45 degrees.
+    transform_matrix = transform_matrix.dot(phi)             #    rotate every points about (0, 0) for 45 degrees.
     
     for i in range(0, 100):
         plt.scatter(x[i], y[i], 20, 'r')
