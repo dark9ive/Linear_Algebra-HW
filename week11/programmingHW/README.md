@@ -1,10 +1,10 @@
 # ProgrammingHW06
 
-Linear Algebra Programming HW 06
+Linear Algebra Programming HW 08
 
 ## usage
 
-codes [here](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/code.py).
+codes [here](https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week11/programmingHW/code.py).
 
 ```
 python3 code.py
@@ -14,11 +14,15 @@ I recommend you to run these codes on a ___jupyter notebook___ or anything simil
 
 ## principle
 
+This is basically the same copy of the HW06, except some input difference.
+
 ### Part 1
 
 So this is how my codes works:  
 
-First the user will insert a range for a rectangle, then I will fill the region with 30x30 points separated.
+First the user will insert deltaX and deltaY, both zero is not accepted.  
+
+Ater that, user has to insert the 
 
 After that, the code will draw each points on a chart, which ranged from x=(-1.2\*max, 1.2\*max), y=(-1.2\*max, 1.2\*max) for max=max(eachX, eachY).
 
@@ -39,4 +43,4 @@ then multiply every points with the 3x3 transform matrix and draw them on a new 
 Finally, my code prints out the transform matrix for the user to verify.
 
 ## Example
-<img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/Myexample.png >.
+<img src=https://github.com/dark9ive/Linear_Algebra-HW/blob/master/week09/programmingHW/pics/example.png >.
